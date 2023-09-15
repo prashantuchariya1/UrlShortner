@@ -88,3 +88,8 @@ h2 {
 .submit_button:hover {
   background-color: #2980b9;
 }
+
+.display_error{
+  color: rgb(255, 31, 31);
+  font-size: 18px;
+}

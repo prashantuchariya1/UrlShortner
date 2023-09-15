@@ -85,7 +85,7 @@ function MainUrlBox() {
       <div className={styles.container}>
         <h2 className={styles.heading}>URL Shortener Result</h2>
         <p className={styles.label}>Your shortened URL:</p>
-        <p className={styles.shortUrl}>{shortUrl}</p>
+        <p className={styles.shortUrl}>http://localhost:3000/{shortUrl}</p>
         <button className={styles.submit_button} onClick={handleCopy}>
           Copy URL
         </button>
