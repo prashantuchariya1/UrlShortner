@@ -1,0 +1,95 @@
+/* mainUrlBox.module.css */
+
+.container {
+  width: 600px; 
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #f9f9f9;
+  /* border: 1px solid red; */
+}
+
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.additional-text {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #888;
+}
+
+
+
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.label {
+  font-size: 16px;
+  color: #555;
+}
+
+.shortUrl {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+  word-break: break-all;
+}
+
+
+
+.submit_button {
+  background-color: #3498db;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit_button:hover {
+  background-color: #2980b9;
+}
+
+.display_error{
+  color: rgb(255, 31, 31);
+  font-size: 18px;
+}
