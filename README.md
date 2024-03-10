@@ -40,4 +40,4 @@ CREATE TABLE url_list (
 )
 
 ### Contact
-Your Name - prashantuchariya1@gmail.com
+Email - prashantuchariya1@gmail.com
